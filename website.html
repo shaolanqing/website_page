@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>World Word</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        width: 620px;
+        margin: 0 auto;
+        border: 1px solid #808080;
+    }
+    .header{
+        background-color: #A9D428;
+        width: 610px;
+        height: 100px;
+        background: url('images/header_bg.gif');
+        position: relative;           /*相对路径*/
+        font-size: 12px;
+        padding: 10px 0px 10px 10px;
+    }
+   .header h1{
+        width: 416px;
+        height:89px;
+        background: url('images/logo.GIF') no-repeat 0px 5px;
+   }
+   .header ul{
+        position: absolute;              /*利用绝对位置*/
+        right: 10px;
+        bottom: 3px;
+   }
+   .header ul li{
+       display: inline-block;           /*绝对位置*/
+       padding-left: 10px;
+   }
+    .sidebar1{
+        width: 140px;
+        float: left;
+        background-color: #060;
+        height: 300px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #0D1100;
+        background-color: #9c0;
+        display: block;
+        width: 92px;
+        line-height: 30px;
+        border-left: 4px solid #FF9900; 
+    }
+    .nav li{
+        margin-bottom: 2px;
+        margin-left: 20px;
+
+    }
+    .nav{
+        list-style: none;
+    }
+    .nav li a{
+        text-decoration: none;
+    }
+    .content{
+        width: 420px;
+        padding-right: 30px;
+        float: right;
+        min-height: 300px;
+    }
+    .content h2{
+         text-align: center;
+         font-size: 13px;
+         margin-top:22px;          
+    }
+    .h22{
+      border-bottom: 3px double #000;     
+    }
+    .p1{
+        margin-top: 2px;
+    }
+    .content p{
+        font-size: 13px;
+        text-indent: 2em;
+        padding-top: 25px;
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .footer{
+        text-align: center;
+        clear: both;
+        height: 25px;
+        background-color: #f90;
+    }
+    .footer a{
+        color: black;
+    }
+    .menu li{ 
+       list-style-type: none;     
+    }
+    .menu li a{
+        color: #1D7908;
+        text-decoration: none;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1></h1>
+        <ul class=menu>
+            <li><a href="#">设为首页</a></li>
+            <li><a href="#">加入收藏</a></li>
+        </ul>
+        <!-- end .header --></div>
+        <div class="sidebar1">
+            <ul class="nav">
+                <li><a href="#">翻译服务</a></li>
+                <li><a href="#" class="current">网站建设</a></li>
+                <li><a href="#">服务流程</a></li>
+                <li><a href="#">付费</a></li>
+            </ul>
+        <!-- end .sidebar1 --></div>
+        <div class="content">
+            <div class="h22"><h2>网站建设</h2></div>
+            <div class="p1">
+            <p>一幅美观而高效的页面、一个强而有力的标志是其所有者的形象，也是他向外展示自己而给人留下深刻印象的第一个机会。它所具有的美应该能抓住浏览者的眼睛，它所包含的内容应该能锁住他们的心。</p>
+            <p>这需要一支熟练而具有市场观念的团队来实现。这就是您选择“World-Word”的原因，让我们来帮您实现上述目的。我们的团队会把他们丰富的经验、知识及才干注入到您的网站中。</p>
+            <p>当然，如果您需要，由于我们得天独厚的业务专长，我们也可以将您的网站无缝地制作成英文版/中文版。</p></div>
+        <!-- end .content --></div>
+        <div class="footer">
+        <p>与我们联系：<a  href="mailto:service@world-word.com">service@world-word.com</a></p>
+        <!-- end .footer --></div>
+        <!-- end .container --></div>
+    </body>
+</html>
